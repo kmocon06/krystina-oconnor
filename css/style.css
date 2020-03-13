@@ -1,0 +1,179 @@
+body {
+	background-color: lightblue;
+	font-family: 'Verdana', sans-serif;
+	color: white;
+	font-size: 18pt;
+	position: relative;
+}
+
+
+
+#developer-img {
+	height: 250px;
+	margin-top: 0px;
+	align-items: center;
+	border-radius: 300px;
+}
+
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+i {
+	color: white;
+}
+
+.header{
+	height: 98vh;
+	background-image: url('../images/runningshoe.jpg');
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin: 16px;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+
+.header-primary-text-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.header-primary-text {
+	font-family: 'Verdana';
+	color: #fff;
+	backface-visibility: hidden;
+}
+
+.header1 {
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	animation-name: moveInLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+.header2{
+	display: block;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	animation-name: moveInRight;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+
+#header-nav {
+	background: white;
+	font-family: 'Verdana', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: fixed;
+	top: 0px;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px;
+}
+a:link {color: rgb(0, 0, 139);}    
+a:visited {color:rgb(0, 0, 139);} 
+a:hover {text-decoration: underline;} 
+
+.titles {
+	font-family: 'Verdana', cursive;
+	color: white;
+	text-align: center;
+}
+
+#about-text {
+	font-family: 'Verdana', sans-serif;
+	padding:10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+.Web-Projects-title {
+		padding-top: 100px;
+	}
+
+.projects-section {
+	margin: 16px;
+	text-align: center;
+}
+
+.projects-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 61px 0;
+}
+
+.project-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content:space-around;
+	width: 46%;
+	padding: 50px 10px;
+	text-align: center;
+	color: white;
+}
+
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding:5px;
+}
+
+
+#contact-info {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 10px 15px;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+
+.email-linkedin-github-resume{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+
+}
+
+
+
+footer{
+	font-family: Verdana;
+	font-size: 14pt;
+	color: black;
+	text-align: center;
+}
